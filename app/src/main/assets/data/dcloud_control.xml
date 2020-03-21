@@ -1,4 +1,4 @@
-<hbuilder version="1.9.9.80037">
+<hbuilder version="1.9.9.80037" debug="true" syncDebug="true">
 <apps>
     <app appid="h5_web_view" appver=""/>
 </apps>

@@ -33,7 +33,7 @@ public class H5WebViewModeListener implements ICore.ICoreStatusListener {
     @Override
     public void onCoreInitEnd(ICore coreHandler) {
         String app_id = "h5_web_view";
-        String url = "http://android-web-view.html.ztj.xyz/";
+        String url = "http://web-view.html.ztj.xyz/Html5-SDK.html";
         web_view = SDK.createWebview(activity, url, app_id, new IWebviewStateListener() {
             @Override
             public Object onCallBack(int pType, Object pArgs) {

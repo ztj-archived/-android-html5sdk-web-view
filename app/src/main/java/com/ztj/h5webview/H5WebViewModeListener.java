@@ -80,6 +80,10 @@ public class H5WebViewModeListener implements ICore.ICoreStatusListener {
 
     @Override
     public boolean onCoreStop() {
+        final WebView web_view_instance = web_view.obtainWebview();
+        web_view_instance.clearCache(true);
+        web_view_instance.clearFormData();
+        web_view_instance.clearFormData();
         return false;
     }
 }
